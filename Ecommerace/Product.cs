@@ -16,6 +16,8 @@ namespace Ecommerace
 
             public int Stock { get; set; }
 
+        public int ProductType { get; set; }
+
             //constructor of Product class
             public Product(int productId, string productName, double price, int stock)
             {
